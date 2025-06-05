@@ -9,10 +9,20 @@
 <body>
     <header>
         <h1>Bem-vindo ao Pedido iFood</h1>
+        <button id="ver-carrinho" class="botao-carrinho">Ver carrinho</button>
     </header>
     <main>
         <section id="lanches-container" class="lanches"></section>
     </main>
+
+    <div id="modal-carrinho" class="modal hidden">
+        <div class="modal-conteudo">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <p id="total-carrinho"></p>
+            <button id="fechar-carrinho">Fechar</button>
+        </div>
+    </div>
     <footer>
         
     </footer>
