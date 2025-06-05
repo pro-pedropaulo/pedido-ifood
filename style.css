@@ -1,0 +1,36 @@
+/* Estilos iniciais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.lanches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lanche-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.lanche-card img {
+    width: 100%;
+    height: auto;
+}
