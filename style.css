@@ -14,3 +14,23 @@ header, footer {
 main {
     padding: 20px;
 }
+
+.lanches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.lanche-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.lanche-card img {
+    width: 100%;
+    height: auto;
+}
